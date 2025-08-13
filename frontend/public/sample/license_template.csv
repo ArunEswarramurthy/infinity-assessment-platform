@@ -1,0 +1,5 @@
+name,email,sin_number,department
+John Doe,john@example.com,SIM001,CSE
+Jane Smith,jane@example.com,SIM002,ECE
+Alice Johnson,alice@example.com,SIM003,IT
+Bob Wilson,bob@example.com,SIM004,MECH

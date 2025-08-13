@@ -1,0 +1,49 @@
+{
+  "name": "infinity-assessment-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js",
+    "start:prod": "NODE_ENV=production node index.js",
+    "test-db": "node test-db-connection.js",
+    "init-db": "node init-db.js",
+    "seed-data": "node seed-test-data.js",
+    "seed-reports": "node seed-reports-data.js",
+    "setup-complete": "node init-db.js && node seed-test-data.js",
+    "setup-reports": "node init-db.js && node seed-test-data.js && node seed-reports-data.js",
+    "security-audit": "npm audit",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Infinity",
+  "license": "ISC",
+  "description": "Backend API for Infinity Assessment Platform",
+  "dependencies": {
+    "axios": "^1.11.0",
+    "cors": "^2.8.5",
+    "csv-parser": "^3.2.0",
+    "dotenv": "^17.0.1",
+    "exceljs": "^4.4.0",
+    "express": "^5.1.0",
+    "express-rate-limit": "^8.0.1",
+    "express-session": "^1.18.2",
+    "google-auth-library": "^10.1.0",
+    "helmet": "^8.1.0",
+    "json2csv": "^5.0.7",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^2.0.1",
+    "mysql2": "^3.14.1",
+    "nodemailer": "^7.0.5",
+    "pdfkit": "^0.17.1",
+    "sequelize": "^6.37.7",
+    "uuid": "^11.1.0",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  }
+}
