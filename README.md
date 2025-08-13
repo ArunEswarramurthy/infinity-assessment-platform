@@ -1,59 +1,45 @@
-nfinity Assessment Platform - Student Assignment Center
-Key Sections:
-🔐 Security Features
+📋 Project Overview
+   Complete description of the Infinity Assessment Platform
 
-JWT Authentication with secure sessions
+   Clear explanation of its purpose for educational institutions
 
-CSRF protection and rate limiting
+🎯 Key Features
+    Student Features: Multi-format testing, practice mode, real-time code execution, progress tracking, leaderboards
 
-Input sanitization and XSS prevention
+  Administrator Features: Test management, question bank, AI-powered generation, student management, advanced reports
 
-SQL injection prevention
+  Technical Features: Modern tech stack details, authentication, file handling, code execution
 
-Secure file uploads
+🏗️ Architecture
+  Visual representation of the system architecture
 
-📋 Prerequisites
+  Frontend, backend, and database components clearly outlined
 
-Node.js
+📚 Usage Guide
+  Step-by-step instructions for both students and administrators
 
-MySQL server
+  Clear workflows for common tasks
 
-Database: test_platform
+🔌 API Endpoints
+  Key API endpoints organized by functionality
 
-⚡ Quick Setup
+  Authentication, tests, coding platform, reports, and question management
 
-Install dependencies (backend + frontend)
+📊 Database Schema
+  Core database tables and their purposes
 
-Setup MySQL database
+🚀 Deployment
+  Production setup instructions
 
-Run with start-dev.bat or manually
+  Environment variable configurations for both backend and frontend
 
-Access: Frontend (8080) + Backend API (5000)
+  Additional Sections
+  Documentation references
 
-📊 Reports System
+  Contributing guidelines
 
-Student Reports: Test history, performance stats, downloads
+  License information
 
-Admin Reports: Dashboard, live monitoring, top performers
+  Support information
 
-Quick setup with sample data scripts
-
-🔧 Troubleshooting Guide
-
-Connection issues
-
-Database problems
-
-Reports setup
-
-Java compiler fixes
-
-📁 File Structure
-
-Clean documentation
-
-Step-by-step instructions
-
-Batch scripts for Windows
-
-Comprehensive error solutions
+  Version history
